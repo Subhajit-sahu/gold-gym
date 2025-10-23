@@ -27,7 +27,7 @@ const Detail = ({ exerciseDetail }) => {
   return (
     <Stack gap="60px" sx={{ flexDirection: { lg: 'row' }, p: '20px', alignItems: 'center' }}>
      <img 
-    src={`http://localhost:5000/exercise-image/${exerciseDetail.id}`} 
+    src={`https://gold-gym-2yfi.onrender.com/exercise-image/${exerciseDetail.id}`} 
     alt={name} 
     loading="lazy" 
     className="detail-image" 

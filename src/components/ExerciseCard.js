@@ -6,7 +6,7 @@ const ExerciseCard = ({ exercise }) => (
   <Link className="exercise-card" to={`/exercise/${exercise.id}`}>
     {/* <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" /> */}
     <img
-      src={`http://localhost:5000/exercise-image/${exercise.id}`}
+      src={`https://gold-gym-2yfi.onrender.com/exercise-image/${exercise.id}`}
       alt={exercise.name}
       loading="lazy"
     />
